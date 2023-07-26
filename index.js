@@ -1,1 +1,4 @@
-ReactDOM.render(<h1>Hello, everyone!!</h1>, document.getElementById("root"))
+ReactDOM.render(
+    <ul>Chili:<li>Tomatoes</li><li>Beans</li><li>Ground Beef</li></ul>,
+    document.getElementById("root")
+)
