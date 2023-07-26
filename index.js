@@ -64,3 +64,39 @@ ReactDOM.render(
     </div>,
     document.getElementById("root")
 )
+
+const h1 = document.createElement("h1")
+h1.textContent = "This is an imperative way to program"
+h1.className = "header"
+document.getElementById("vanilla").append(h1)
+//versus...
+ReactDOM.render(<p>This is a declarative way to program</p>, document.getElementById("notVanilla"))
+
+
+
+
+
+const page = (
+    <div>
+        <h1 className="header">Using a const</h1>
+        <p>This is a paragraph</p>
+    </div>
+)
+
+ReactDOM.render(
+    page,
+    document.getElementById("useConst")
+)
+
+const myNavBar = (
+    <nav>
+        <h1>Brand Name Here</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+ReactDOM.render(myNavBar, document.getElementById("myNavBarDiv"))
