@@ -2,6 +2,7 @@
   "name": "scrimba-react-1",
   "version": "1.0.0",
   "dependencies": {
+    "http-server": "^14.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
