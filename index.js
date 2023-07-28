@@ -4,6 +4,7 @@ import Header from "./Header.js"
 import Footer from "./Footer.js"
 import MainContent from "./MainContent"
 
+
 function Page() {
     return (
         <div>
